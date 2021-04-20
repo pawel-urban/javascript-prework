@@ -23,7 +23,7 @@
     printMessage('Mój ruch to: ' + argComputerMove);
 
     /* Gracz */
-    let argPlayerMove = getMoveName(playerInput);
+    const argPlayerMove = getMoveName(playerInput);
 
     printMessage('Twój ruch to: ' + argPlayerMove);
 
