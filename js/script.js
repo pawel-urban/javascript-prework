@@ -28,7 +28,7 @@
     printMessage('Twój ruch to: ' + argPlayerMove);
 
     /* Function 2 */
-    function displayResult(argComputerMove, argPlayerMove){
+    const displayResult = function(argComputerMove, argPlayerMove){
 
       if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
         printMessage('Ty wygrywasz!');
