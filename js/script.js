@@ -18,7 +18,7 @@
 
     /* Komputer */
     const randomNumber = Math.floor(Math.random() * 3 + 1);
-    let argComputerMove = getMoveName(randomNumber);
+    const argComputerMove = getMoveName(randomNumber);
 
     printMessage('Mój ruch to: ' + argComputerMove);
 
