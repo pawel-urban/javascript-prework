@@ -16,15 +16,11 @@
       }
     }
 
-    /* Komputer */
-    const randomNumber = Math.floor(Math.random() * 3 + 1);
-    const argComputerMove = getMoveName(randomNumber);
+    const randomNumber = Math.floor(Math.random() * 3 + 1), /* Losowanie liczby */
+          argComputerMove = getMoveName(randomNumber), /* Ruch komputera */
+          argPlayerMove = getMoveName(playerInput); /* Ruch gracza */
 
     printMessage('Mój ruch to: ' + argComputerMove);
-
-    /* Gracz */
-    const argPlayerMove = getMoveName(playerInput);
-
     printMessage('Twój ruch to: ' + argPlayerMove);
 
     /* Function 2 */
