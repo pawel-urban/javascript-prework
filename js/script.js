@@ -16,9 +16,9 @@
       }
     }
 
-    const randomNumber = Math.floor(Math.random() * 3 + 1), /* Losowanie liczby */
-          argComputerMove = getMoveName(randomNumber), /* Ruch komputera */
-          argPlayerMove = getMoveName(playerInput); /* Ruch gracza */
+    const randomNumber = Math.floor(Math.random() * 3 + 1),
+          argComputerMove = getMoveName(randomNumber),
+          argPlayerMove = getMoveName(playerInput);
 
     printMessage('Mój ruch to: ' + argComputerMove);
     printMessage('Twój ruch to: ' + argPlayerMove);
